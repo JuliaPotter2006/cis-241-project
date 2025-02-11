@@ -1,0 +1,59 @@
+html {
+    background-color: #121212;
+}
+
+@font-face {
+  font-family: "roboto";
+  src: url("Roboto_SemiCondensed-Regular.ttf");
+}
+
+body {
+    color: #FFFFFF;
+    font-family: roboto;
+}
+
+header {
+    background-color: #1DB954;
+    border: .5vh solid #B3B3B3;
+    text-align: center;
+    vertical-align: middle;
+    margin: 1vh;
+    height: 20vh;
+    padding: 0vh;
+}
+
+header h1 {
+    font-size: 5vh;
+}
+
+header h2 {
+    font-size: 2.25vh;
+}
+
+div.portal {
+    background-color: #1DB954;
+    border: .5vh solid #B3B3B3;
+    text-align: center;
+    margin: 1vh;
+    padding: 5vh;
+    height: 5vh;
+}
+
+#report {
+    color: #FFFFFF;
+    font-size: 4vh;
+}
+
+div.intro {
+    background-color: #1DB954;
+    border: .5vh solid #B3B3B3;
+    margin: 1vh;
+    padding: 1vh;
+    font-size: 2vh;
+    height: 54vh;
+}
+
+div.intro h2 {
+    text-align: center;
+    font-size: 4vh;
+}
