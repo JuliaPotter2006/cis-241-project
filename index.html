@@ -2,11 +2,30 @@
 
     <head>
         <meta charset="utf-8">
+        <meta name="author" content="Julia Potter">
+        <meta name="description" content="A portal to view the data analysis project JupyterLab file.">
+        <link href="main.css" rel="stylesheet" type="text/css">
         <title>Data Science Project</title>
     </head>
-
-    <p> Please click the link to view the report. I apologize for the bare bones website, I an still learning web design.</p>
     
-    <a href="Report.html">See Report Here</a>
+    <body>
+    
+        <header>
+            <h1>Spotify Chart Rankings Analysis Project</h1>
+            <h2>Identifying the characteristics of a song that make it rank highly on the Spotify Top Song Charts.</h2>
+        </header>
+    
+        <div class="portal">
+            <a href=Report.html id="report">View The Report</a>
+        </div>
+        
+        <div class="intro">
+            <h2>Introduction</h2>
+            <p>Spotify is one of the most popular music streaming platforms globally. The creator of <a href="https://www.kaggle.com/datasets/abdulszz/spotify-most-streamed-songs">the data set I am using</a> collected the data from Spotify's top songs charts and enriched it with similar data from other music streaming platforms to create a comprehensive dataset of the most popular songs on Spotify. According to the creator, Muhammad Abdullah, the data was collected by using "Pyhton [sic] with beautifulSoup" to perform "web scrapping [sic] using API of Spotify". The dataset itself has been dedicated to the public domain.</p>
+            <p>This data affects many people, most notably the artists of the songs. From the <a href="https://ethos.academicdatascience.org/lenses/positionality/">ethical lens</a> of Positionality, we must consider that everyone, including myself, is biased towards and against different musical artists and genres. It is important to set that bias aside to look at the data objectively. Looking through the lens of Power, we might acknowledge that most of this data comes from Spotify, the most popular music streaming service in the world. Spotify's immense power in the music industry, and by extension this data's power, should be kept in mind as the data analysis is performed.</p>
+            <p>In this report I will explore questions regarding the popularity of songs and how their traits affect it. Does a song's BPM (beats per minute) influence its rank on the Spotify charts? Do songs in the major mode rank higher than songs in the minor mode? Can a song's rank on the Spotify charts, and by extension its popularity, be predicted by its characteristics? The answers to questions like these could bring about valuable insight regarding the reasons why certain songs become more popular than others.</p>
+        </div>
+    
+    </body>
     
 </html>
